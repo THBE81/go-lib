@@ -23,3 +23,7 @@ arr := arrays.TypedArray(1, 2, 3)
 ```bash
 go get github.com/THBE81/go-lib
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

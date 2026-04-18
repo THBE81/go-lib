@@ -1,3 +1,7 @@
+// Copyright (c) 2026 THBE81
+// Licensed under the MIT License.
+// See LICENSE file in the project root for full license information.
+
 // Package arrays provides generic array/slice utility functions.
 package arrays
 
