@@ -30,12 +30,12 @@ func Map[T any, K any](arr []T, fn func(T) K) []K {
 	return result
 }
 
-func GetFirstOfType[T any, K any](arr []T) (K, bool) {
+func GetFirstOfType[T any](arr []any) (T, bool) {
 	for _, v := range arr {
-		if k, ok := any(v).(K); ok {
+		if k, ok := v.(T); ok {
 			return k, true
 		}
 	}
-	var zero K
+	var zero T
 	return zero, false
 }
