@@ -6,8 +6,8 @@
 package arrays
 
 // Array creates a new slice from variadic arguments of any type.
-func Array(args ...interface{}) []any {
-	arr := make([]interface{}, len(args))
+func Array(args ...any) []any {
+	arr := make([]any, len(args))
 	copy(arr, args)
 	return arr
 }
